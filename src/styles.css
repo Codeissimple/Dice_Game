@@ -1,6 +1,38 @@
 /**********************************************
 *** GENERAL
 **********************************************/
+.btn-win-score {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 520px;
+  color: #555;
+  font-size: 18px;
+  font-family: "Lato";
+  text-align: center;
+  padding: 10px;
+  width: 280px;
+  text-transform: uppercase;
+}
+
+.btn-win-score:focus {
+  outline: none;
+}
+
+.input {
+  position: absolute;
+  margin-top: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 550px;
+  color: #555;
+  font-size: 18px;
+  font-family: "Lato";
+  text-align: center;
+  padding: 5px;
+  width: 80px;
+  text-transform: uppercase;
+}
 
 * {
   margin: 0;
